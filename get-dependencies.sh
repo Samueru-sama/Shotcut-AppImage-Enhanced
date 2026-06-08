@@ -16,7 +16,7 @@ pacman -Syu --noconfirm \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-mesa --prefer-nano
+get-debloated-pkgs --add-common x265-mini
 
 # Comment this out if you need an AUR package
 #make-aur-package PACKAGENAME
